@@ -1,20 +1,22 @@
-.htaccess
-/config.php
-admin/config.php
+# Compiled class file
+*.class
 
-!index.html
+# Log file
+*.log
 
-download/
-image/data/
-image/cache/
-system/cache/
-system/logs/
+# BlueJ files
+*.ctxt
 
-system/storage/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# vQmod log files
-vqmod/logs/*
-# vQmod cache files
-vqmod/vqcache/*
-vqmod/checked.cache
-vqmod/mods.cache
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
