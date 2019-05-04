@@ -109,8 +109,8 @@
 				<note priority="1" from="meaning">Выпадающее меню, в котором можно выбрать интересующий квест. По умолчанию используется фильтр "Все квесты"</note>
             </trans-unit>
 	    <trans-unit id="5a134dee893586d02bffc9611056b9cadf9abfad" datatype="html">
- 		<source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</source>
-  		<target>{VAR_PLURAL, plural, =0 {à l'instant} =1 {il y a une minute} other {il y a <x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes} }</target>
+ 		<source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago}}</source>
+  		<target>{VAR_PLURAL, plural, =0 {à l'instant} =1 {il y a une minute} other {il y a <x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes}}</target>
 	    </trans-unit>
         </body>
     </file>
