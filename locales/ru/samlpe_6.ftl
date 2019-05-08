@@ -69,6 +69,6 @@ tooManyFiles = { $count ->
 }
 # count will always be > 10
 tooManyArchives = { $count ->
-     [one] Only 1 archive is allowed.
+     [one] Only 2 archive is allowed.
     *[other] Only { $count } archives are allowed.
 }
