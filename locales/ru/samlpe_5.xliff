@@ -10,6 +10,7 @@
       </trans-unit>
       <trans-unit id="Button">
         <source xml:space="preserve">Задачи</source>
+        <target>Tasks</target>
         <note priority="1" from="description">Кнопка в сайдбаре.</note>
         <note priority="1" from="meaning">Название кнопки при нажатии на которую появляется вся информация по задачам курса. (Карточки с описанием задач).</note>
       </trans-unit>
