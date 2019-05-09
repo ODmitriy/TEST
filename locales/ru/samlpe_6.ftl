@@ -3,14 +3,6 @@ siteFeedback = Feedback
 importingFile = Importing…
 encryptingFile = Encrypting…
 decryptingFile = Decrypting…
-downloadCount = { $num ->
-        [one] Задача
-       *[other] { $num } Задачи
-    }
-timespanHours = { $num ->
-        [one] 1 hour
-       *[other] { $num } hours
-    }
 copiedUrl = Copied!
 unlockInputPlaceholder = Password
 unlockButtonLabel = Unlock
@@ -22,28 +14,23 @@ unlockButtonLabel = Unlock
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
-
 introTitle = Simple, private file sharing
 introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
-timespanMinutes = { $num ->
-        [one] 1 minute
-       *[other] { $num } minutes
+timespanMinutes =
+    { $num ->
+        [one] 1 минута
+        [few] { $num } минут
+       *[other] минут
     }
-timespanDays = { $num ->
-        [one] 1 day
-       *[other] { $num } days
+timespanDays =
+    { $num ->
+        [one] 1 день
+        [few] { $num } дня
+       *[other] дней
     }
-timespanWeeks = { $num ->
-        [one] 1 week
-       *[other] { $num } weeks
-    }
-fileCount = { $num ->
-    [one] 1 file
-   *[other] { $num } files
-}
 # byte abbreviation
 bytes = B
 # kibibyte abbreviation
@@ -62,13 +49,3 @@ copyLinkButton = Copy link
 downloadTitle = Download files
 downloadDescription = This file was shared via { -send-brand } with end-to-end encryption and a link that automatically expires.
 trySendDescription = Try { -send-brand } for simple, safe file sharing.
-# count will always be > 10
-tooManyFiles = { $count ->
-     [one] Only 1 file can be uploaded at a time.
-    *[other] Only { $count } files can be uploaded at a time.
-}
-# count will always be > 10
-tooManyArchives = { $count ->
-     [one] Only 1 archive is allowed.
-    *[other] Only { $count } archives are allowed.
-}
