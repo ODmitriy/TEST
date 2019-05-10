@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" date="2019-05-03T10:58:44.4545357Z" original="8e5e145dbc199db987bb26f0_1033" source-language="ru" target-language="ru">
+    <header>
+      <tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="3.5.98.0"/>
+    </header>
+    <body>
+      <trans-unit id="Header">
+        <source xml:space="preserve">Страница "Задачи"</source>
+      </trans-unit>
+      <trans-unit id="Button">
+        <source xml:space="preserve">Задачи</source>
+        <target>Tasks</target>
+        <note priority="1" from="description">Кнопка в сайдбаре.</note>
+        <note priority="1" from="meaning">Название кнопки при нажатии на которую появляется вся информация по задачам курса. (Карточки с описанием задач).</note>
+      </trans-unit>
+      <trans-unit id="Page">
+        <source xml:space="preserve">Вкладка "Все задачи"</source>
+      </trans-unit>
+      <trans-unit id="Section">
+        <source xml:space="preserve">Все задачи</source>
+        <target>All tasks</target>
+        <note priority="1" from="description">Название раздела</note>
+        <note priority="1" from="meaning">Все задачи курса (1200шт.). При нажатии показываются все задачи курса.</note>
+      </trans-unit>
+      <trans-unit id="651">
+        <source xml:space="preserve">Задачи</source>
+        <target>Tasks</target>
+        <note priority="1" from="description">Заголовок страницы. Множественное число</note>
+        <note priority="1" from="meaning">Данный заголовок отображается при выборе пользователем списка задач (например пункта Мои задачи, Все задачи или Нерешенные задачи)</note>
+      </trans-unit>
+      <trans-unit id="657">
+        <source xml:space="preserve">Задача</source>
+        <target xml:space="preserve">Task</target>
+        <note priority="1" from="description">Заголовок страницы. Единственное число</note>
+        <note priority="1" from="meaning">Данный заголовок отображается при выборе пользователем конкретной задачи</note>
+      </trans-unit>
+      <trans-unit id="661">
+        <source xml:space="preserve">ДОСТУПНА</source>
+        <target xml:space="preserve">AVAILABLE</target>
+        <note priority="1" from="description">Статус задачи</note>
+        <note priority="1" from="meaning">Самый первый статус, который получает задача, назначенная пользователю.</note>
+      </trans-unit>
+      <trans-unit id="664">
+        <source xml:space="preserve">В ПРОГРЕССЕ</source>
+        <target>IN PROGRESS</target>
+        <note priority="1" from="description">Статус задачи</note>
+        <note priority="1" from="meaning">Данный статус получает задача, при условии, что пользователь уже хотя бы раз отправлял её на проверку</note>
+      </trans-unit>
+      <trans-unit id="667">
+        <source xml:space="preserve">РЕШЕНА</source>
+        <note priority="1" from="description">Статус задачи</note>
+        <note priority="1" from="meaning">Данный статус получает задача, когда программа успешно прошла проверку. Пользователь может повторно отправлять решение на проверку в течение трех дней, после получения этого статуса</note>
+      </trans-unit>
+      <trans-unit id="671">
+        <source xml:space="preserve">НЕДОСТУПНА</source>
+        <target xml:space="preserve">UNAVAILABLE</target>
+        <note priority="1" from="description">Статус задачи</note>
+        <note priority="1" from="meaning">Данный статус имеет задача, которая еще не была назначена пользователю.</note>
+      </trans-unit>
+      <trans-unit id="674">
+        <source xml:space="preserve">ЗАКРЫТА</source>
+        <note priority="1" from="description">Статус задачи</note>
+        <note priority="1" from="meaning">По истечению трех дней после получения статуса «решена», задача получает статус «закрыта» и пользователь не может больше отправлять её на проверку.</note>
+      </trans-unit>
+      <trans-unit id="678">
+        <source xml:space="preserve">Мои задачи</source>
+        <note priority="1" from="description">Название раздела</note>
+        <note priority="1" from="meaning">Задачи доступные для решения текущему пользователю</note>
+      </trans-unit>
+      <trans-unit id="681">
+        <source xml:space="preserve">Задачи</source>
+        <note priority="1" from="description">Заголовок страницы. </note>
+        <note priority="1" from="meaning">Множественное число</note>
+      </trans-unit>
+      <trans-unit id="685">
+        <source xml:space="preserve">Вкладка "Нерешенные задачи"</source>
+      </trans-unit>
+      <trans-unit id="686">
+        <source xml:space="preserve">Нерешенные задачи</source>
+        <note priority="1" from="description">Название раздела</note>
+        <note priority="1" from="meaning">Задачи доступные текущему пользователю, за исключением уже решенных задач.</note>
+      </trans-unit>
+      <trans-unit id="689">
+        <source xml:space="preserve">Задачи</source>
+        <note priority="1" from="description">Заголовок страницы.</note>
+        <note priority="1" from="meaning">Множественное число</note>
+      </trans-unit>
+      <trans-unit id="693">
+        <source xml:space="preserve">Поиск</source>
+        <note priority="1" from="description">Текст отображаемый по умолчанию в поле для поиска. </note>
+        <note priority="1" from="meaning">Поиск по задачам.</note>
+      </trans-unit>
+      <trans-unit id="697">
+        <source xml:space="preserve">Все квесты</source>
+        <note priority="1" from="description">Текст. Название фильтра.</note>
+        <note priority="1" from="meaning">Выпадающее меню, в котором можно выбрать интересующий квест. По умолчанию используется фильтр "Все квесты"</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+
