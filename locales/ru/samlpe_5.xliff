@@ -43,6 +43,7 @@
       </trans-unit>
       <trans-unit id="664">
         <source xml:space="preserve">В ПРОГРЕССЕ</source>
+        <target>IN PROGRESS</target>
         <note priority="1" from="description">Статус задачи</note>
         <note priority="1" from="meaning">Данный статус получает задача, при условии, что пользователь уже хотя бы раз отправлял её на проверку</note>
       </trans-unit>
